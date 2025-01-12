@@ -21,9 +21,6 @@ public class Main {
                 flag=false;
         }
 
-        System.out.println("Введите строку:");
-        String input = scanner.nextLine();
-
         if (isSixDigitNumber(input)) {
             System.out.println("Строка является шестизначным числом без нулей в старших разрядах");
         } else {
