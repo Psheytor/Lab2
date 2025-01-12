@@ -6,12 +6,12 @@ public class Main {
     public static <bool> void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        boolean  flag=true;
+        boolean  flag=true;String input= "";
         System.out.println("Введите строку, которая является шестизначным числом, записанным в десятичной системе счисления без нулей в старших разрядах.\n– пример правильных выражений: 123456, 234567.– пример неправильных выражений: 1234567, 12345.");
 
         while(flag){
             System.out.println("Введите строку:");
-            String input = scanner.nextLine();
+            input = scanner.nextLine();
 
             if(input.isEmpty()) {
                 System.out.println("Вы ввели пустую строку!");
